@@ -1,0 +1,49 @@
+Milestone: Study Progress Tracker
+Copyright (C) 2026 Ratul. All rights reserved except as granted below.
+
+This program is free software: you can redistribute it and/or modify it under the terms of the
+GNU Affero General Public License as published by the Free Software Foundation, version 3 only
+(AGPL-3.0-only). The full license text is in the file LICENSE. This program is distributed WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+PURPOSE.
+
+In short (the LICENSE text is what legally applies):
+  * Anyone who distributes this app, or a modified version of it, MUST release their complete source
+    code under the same AGPL-3.0 license. Closed-source copies are not allowed.
+  * This also applies when a modified version is offered to users over a network (AGPL section 13).
+  * The copyright notice and the attribution below must be kept.
+
+-------------------------------------------------------------------------------------------------
+ADDITIONAL TERMS under Section 7 of the GNU AGPL v3
+-------------------------------------------------------------------------------------------------
+As permitted by Section 7 of the GNU Affero General Public License version 3, the following
+additional terms apply to this work and to every copy or modified version of it:
+
+(a) Attribution (Section 7(b)). You must preserve this NOTICE file and the copyright notice
+    "Copyright (C) 2026 Ratul" in all copies and modified versions. Any version that shows an
+    "About", "Credits", "Licenses" or similar screen, or a store/listing description, must state
+    clearly: "Based on Milestone by Ratul, licensed under AGPL-3.0", with a link to the original
+    source repository.
+
+(b) No misrepresentation of origin (Section 7(c)). You may not claim to be the original author of
+    this work or of its machine-learning notebooks, models or documentation. Modified versions must
+    be marked in reasonable ways as different from the original version, for example by stating in
+    the README and in the app what was changed and by whom.
+
+(c) Names and trademarks (Section 7(e)). This license does not grant permission to use the name
+    "Milestone", the author's name, or the app's logo/icon to endorse or promote derived products,
+    or as the name of a derived product, without prior written permission of the copyright holder.
+
+Removing or ignoring these terms terminates your rights under this license (AGPL Section 8).
+
+-------------------------------------------------------------------------------------------------
+THIRD-PARTY COMPONENTS (their own licenses apply)
+-------------------------------------------------------------------------------------------------
+* Plus Jakarta Sans font (app/src/main/res/font/plus_jakarta_sans.ttf)
+  Copyright 2020 The Plus Jakarta Sans Project Authors (Tokotype). SIL Open Font License 1.1.
+* Open University Learning Analytics Dataset (OULAD), used to train the models in ml/ and the
+  derived parameters in app/src/main/assets/ml/. J. Kuzilek, M. Hlosta, Z. Zdrahal, "Open
+  University Learning Analytics dataset", Scientific Data 4, 170171 (2017). Licensed CC BY 4.0.
+  The raw data is not redistributed in this repository; the notebooks download it from the UCI
+  Machine Learning Repository.
+* AndroidX / Jetpack libraries (Compose, Room, Navigation, Lifecycle): Apache License 2.0.

@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "source": "hyper-parameters tuned on simulated logs (see notebook); predictions use only on-device user data",
+  "k": 1000,
+  "w_subject": 1000000.0,
+  "w_hour": 0.0,
+  "w_weekday": 0.0,
+  "w_age": 0.0,
+  "aggregate": "median",
+  "epsilon": 0.05,
+  "min_history": 3,
+  "max_history": 400,
+  "fallback_minutes": 45,
+  "sim_test_mae_minutes": {
+    "subject_median": 18.80753806295915,
+    "subject_mean": 18.97486800649349,
+    "knn_mean": 19.132980799943216,
+    "knn_median": 19.33349895304681,
+    "user_mean": 25.637934006372245,
+    "last_same_subject": 25.91138162330979
+  }
+}

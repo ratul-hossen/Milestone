@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "source": "OULAD (CC-BY 4.0), held-out by student",
+  "features": [
+    "f_hist",
+    "f_last",
+    "f_pace"
+  ],
+  "weights": [
+    0.42418492914215533,
+    0.10506852145322801,
+    0.17374700768826792
+  ],
+  "lambda_personal_rel": 100.0,
+  "min_personal_weeks": 3,
+  "test_relative_mae": 0.3864201420489571,
+  "baseline_relative_mae": {
+    "pace": 0.5003671950628023,
+    "last week": 0.6762411462835775
+  }
+}

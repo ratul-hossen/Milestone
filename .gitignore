@@ -1,0 +1,63 @@
+# ---------- Android / Gradle ----------
+.gradle/
+.kotlin/
+build/
+/app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+
+# Local machine config (SDK path) - never commit
+local.properties
+
+# ---------- Android Studio / IntelliJ ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+
+# ---------- Signing keys & secrets - NEVER commit these ----------
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+google-services.json
+.env
+.env.*
+*.pem
+*.p12
+
+# ---------- Machine learning ----------
+# Raw and processed datasets are re-downloadable (ml/00_dataset_preprocessing.ipynb downloads OULAD).
+/ml/data/
+/ml/run*.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.virtual_documents/
+.venv/
+venv/
+
+# ---------- Documentation build leftovers ----------
+/docs/tmp*.html
+
+# ---------- OS / editors ----------
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+
+# Keep (do NOT ignore): app/schemas/ (Room schema history), app/src/main/assets/ml/ (exported models),
+# ml/*.ipynb (notebooks with outputs), docs/ (documentation + PDF).
+
+# ---------- Private coursework (never push) ----------
+docs/IBM4203_Milestone_Report_*.docx
+docs/~$*.docx
+*.docx.bak
