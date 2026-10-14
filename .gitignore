@@ -61,3 +61,4 @@ Thumbs.db
 docs/IBM4203_Milestone_Report_*.docx
 docs/~$*.docx
 *.docx.bak
+ml/.jupyter/
